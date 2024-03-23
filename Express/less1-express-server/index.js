@@ -22,3 +22,7 @@ app.get('/', (req, res) => {
   });
 
   //This creates a server which keeps listening on port 3000 and when we hit 3000 on the specified route. Server responds "Hello World"
+  //So now that our own computer is a server, it should be accessible by any device on any other networks right?
+  //If another device is connected to the same network as the device which is acting as a server, you should be able to access it by providing the ip address
+  //followed by a colon and the port number. But if the other device is connected to a different network, then you have to port forwarding on your router to be 
+  //able to access the server.
